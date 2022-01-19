@@ -2,8 +2,30 @@ apiVersion: v1
 entries:
   azure-pipelines-agent:
   - apiVersion: v2
+    appVersion: 2.2.16
+    created: "2022-01-19T19:24:59.887330663Z"
+    description: A Helm chart for Azure Pipelines Agent
+    digest: 31b4c027af5895144b85f30aa7b80c15e7653309eb28d2d0168e6440f8b78976
+    home: https://github.com/emberstack/docker-azure-pipelines-agent
+    icon: https://raw.githubusercontent.com/emberstack/CDN/master/Projects/docker-azure-pipelines-agent/azure-pipelines.png
+    keywords:
+    - azure
+    - pipelines
+    - devops
+    - agent
+    maintainers:
+    - email: helm-charts@emberstack.com
+      name: winromulus
+    name: azure-pipelines-agent
+    sources:
+    - https://github.com/emberstack/docker-azure-pipelines-agent
+    type: application
+    urls:
+    - charts/azure-pipelines-agent-2.2.16.tgz
+    version: 2.2.16
+  - apiVersion: v2
     appVersion: 2.2.13
-    created: "2022-01-19T16:33:22.50762597Z"
+    created: "2022-01-19T19:24:59.886783255Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: 0148e80e859b9d13ba88401ddbd52d50edd990f2ffd29e7b2c5001627eb7eb55
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -25,7 +47,7 @@ entries:
     version: 2.2.13
   - apiVersion: v2
     appVersion: 2.2.12
-    created: "2022-01-19T16:33:22.506606659Z"
+    created: "2022-01-19T19:24:59.886010544Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: a93606c064339ce3114ad8da02d06fbaffa4a5235ab48548ebff9ad3f14715e8
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -47,7 +69,7 @@ entries:
     version: 2.2.12
   - apiVersion: v2
     appVersion: 2.2.7
-    created: "2022-01-19T16:33:22.508329378Z"
+    created: "2022-01-19T19:24:59.887923871Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: aea7994a13258495a8fa79a050007cd35071bb695c3ff33abc5abbec45c8f0c1
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -67,4 +89,4 @@ entries:
     urls:
     - charts/azure-pipelines-agent-2.2.7.tgz
     version: 2.2.7
-generated: "2022-01-19T16:33:22.50579445Z"
+generated: "2022-01-19T19:24:59.88497013Z"
