@@ -3,7 +3,7 @@ entries:
   azure-pipelines-agent:
   - apiVersion: v2
     appVersion: 2.2.16
-    created: "2022-01-24T18:40:43.852459392Z"
+    created: "2022-01-24T20:10:20.974600569Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: 31b4c027af5895144b85f30aa7b80c15e7653309eb28d2d0168e6440f8b78976
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -25,7 +25,7 @@ entries:
     version: 2.2.16
   - apiVersion: v2
     appVersion: 2.2.13
-    created: "2022-01-24T18:40:43.851847048Z"
+    created: "2022-01-24T20:10:20.973815754Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: 0148e80e859b9d13ba88401ddbd52d50edd990f2ffd29e7b2c5001627eb7eb55
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -47,7 +47,7 @@ entries:
     version: 2.2.13
   - apiVersion: v2
     appVersion: 2.2.12
-    created: "2022-01-24T18:40:43.851184299Z"
+    created: "2022-01-24T20:10:20.972530429Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: a93606c064339ce3114ad8da02d06fbaffa4a5235ab48548ebff9ad3f14715e8
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -69,7 +69,7 @@ entries:
     version: 2.2.12
   - apiVersion: v2
     appVersion: 2.2.7
-    created: "2022-01-24T18:40:43.853085438Z"
+    created: "2022-01-24T20:10:20.975345583Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: aea7994a13258495a8fa79a050007cd35071bb695c3ff33abc5abbec45c8f0c1
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -91,12 +91,12 @@ entries:
     version: 2.2.7
   spring-boot-chart:
   - apiVersion: v2
-    appVersion: 1.0.0-SNAPSHOT.93652b05
-    created: "2022-01-24T18:40:43.853730185Z"
+    appVersion: 1.0.0-SNAPSHOT.11758618
+    created: "2022-01-24T20:10:20.976081398Z"
     description: A Springboot Helm chart for Kubernetes
-    digest: 9e088327d39453d0d1372909150f11448720d8cb26e74854bdf87bec6b4331fb
+    digest: ee5cdcac99d699d7b6c6209b90d5c23b075f90b2da5f3d9e5c3bbc84b2667e8d
     home: https://github.com/jhidalgo3/
-    icon: https://www.google.com/imgres?imgurl=https%3A%2F%2Fspring.io%2Fimages%2Fspring-initializr-4291cc0115eb104348717b82161a81de.svg&imgrefurl=https%3A%2F%2Fspring.io%2Fprojects%2Fspring-boot&tbnid=uYC_yEn1IiVsmM&vet=12ahUKEwjT2Pbogcv1AhXUABQKHRe0AcsQMygCegUIARC2AQ..i&docid=__JE8Tj1frD8RM&w=800&h=719&itg=1&q=spring%20boot%20logo&ved=2ahUKEwjT2Pbogcv1AhXUABQKHRe0AcsQMygCegUIARC2AQ
+    icon: https://jhidalgo3.github.io/helm-charts/logos/springboot-logo.png
     keywords:
     - springboot
     - kubernetes
@@ -111,4 +111,4 @@ entries:
     urls:
     - charts/spring-boot-chart-3.0.0.tgz
     version: 3.0.0
-generated: "2022-01-24T18:40:43.849262759Z"
+generated: "2022-01-24T20:10:20.9710504Z"
