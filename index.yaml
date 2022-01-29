@@ -2,8 +2,30 @@ apiVersion: v1
 entries:
   azure-pipelines-agent:
   - apiVersion: v2
+    appVersion: 2.2.20
+    created: "2022-01-29T18:23:47.828299435Z"
+    description: A Helm chart for Azure Pipelines Agent
+    digest: b8753ba00c3d04a477b25ab3cf8f4058d76d2df8376be3cb3203c795bd11ca92
+    home: https://github.com/emberstack/docker-azure-pipelines-agent
+    icon: https://raw.githubusercontent.com/emberstack/CDN/master/Projects/docker-azure-pipelines-agent/azure-pipelines.png
+    keywords:
+    - azure
+    - pipelines
+    - devops
+    - agent
+    maintainers:
+    - email: helm-charts@emberstack.com
+      name: winromulus
+    name: azure-pipelines-agent
+    sources:
+    - https://github.com/emberstack/docker-azure-pipelines-agent
+    type: application
+    urls:
+    - charts/azure-pipelines-agent-2.2.20.tgz
+    version: 2.2.20
+  - apiVersion: v2
     appVersion: 2.2.16
-    created: "2022-01-28T07:35:09.161650774Z"
+    created: "2022-01-29T18:23:47.827104147Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: 31b4c027af5895144b85f30aa7b80c15e7653309eb28d2d0168e6440f8b78976
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -25,7 +47,7 @@ entries:
     version: 2.2.16
   - apiVersion: v2
     appVersion: 2.2.13
-    created: "2022-01-28T07:35:09.161146571Z"
+    created: "2022-01-29T18:23:47.826471101Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: 0148e80e859b9d13ba88401ddbd52d50edd990f2ffd29e7b2c5001627eb7eb55
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -47,7 +69,7 @@ entries:
     version: 2.2.13
   - apiVersion: v2
     appVersion: 2.2.12
-    created: "2022-01-28T07:35:09.160327166Z"
+    created: "2022-01-29T18:23:47.825786651Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: a93606c064339ce3114ad8da02d06fbaffa4a5235ab48548ebff9ad3f14715e8
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -69,7 +91,7 @@ entries:
     version: 2.2.12
   - apiVersion: v2
     appVersion: 2.2.7
-    created: "2022-01-28T07:35:09.162156178Z"
+    created: "2022-01-29T18:23:47.829105194Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: aea7994a13258495a8fa79a050007cd35071bb695c3ff33abc5abbec45c8f0c1
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -92,7 +114,7 @@ entries:
   spring-boot-chart:
   - apiVersion: v2
     appVersion: 1.0.0-SNAPSHOT.431db05d
-    created: "2022-01-28T07:35:09.163234084Z"
+    created: "2022-01-29T18:23:47.830788017Z"
     description: A Springboot Helm chart for Kubernetes
     digest: 28201449b39cd0649bfb08427433ddcfd1130cc5561d8083525c78f61f733c9d
     home: https://github.com/jhidalgo3/
@@ -115,7 +137,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: 1.0.0-SNAPSHOT.fca01fab
-    created: "2022-01-28T07:35:09.162682681Z"
+    created: "2022-01-29T18:23:47.830134369Z"
     description: A Springboot Helm chart for Kubernetes
     digest: bc5c1510bc78a3d448b68bbba7eae1571ce3654395b8c250dc40586b0d2a0990
     home: https://github.com/jhidalgo3/
@@ -136,4 +158,4 @@ entries:
     urls:
     - charts/spring-boot-chart-3.0.0.tgz
     version: 3.0.0
-generated: "2022-01-28T07:35:09.158570055Z"
+generated: "2022-01-29T18:23:47.824908887Z"
