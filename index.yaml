@@ -89,28 +89,6 @@ entries:
     urls:
     - charts/azure-pipelines-agent-2.2.12.tgz
     version: 2.2.12
-  - apiVersion: v2
-    appVersion: 2.2.7
-    created: "2022-01-29T18:23:47.829105194Z"
-    description: A Helm chart for Azure Pipelines Agent
-    digest: aea7994a13258495a8fa79a050007cd35071bb695c3ff33abc5abbec45c8f0c1
-    home: https://github.com/emberstack/docker-azure-pipelines-agent
-    icon: https://raw.githubusercontent.com/emberstack/CDN/master/Projects/docker-azure-pipelines-agent/azure-pipelines.png
-    keywords:
-    - azure
-    - pipelines
-    - devops
-    - agent
-    maintainers:
-    - email: helm-charts@emberstack.com
-      name: winromulus
-    name: azure-pipelines-agent
-    sources:
-    - https://github.com/emberstack/docker-azure-pipelines-agent
-    type: application
-    urls:
-    - charts/azure-pipelines-agent-2.2.7.tgz
-    version: 2.2.7
   spring-boot-chart:
   - apiVersion: v2
     appVersion: 1.0.0-SNAPSHOT.431db05d
