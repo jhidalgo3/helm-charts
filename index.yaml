@@ -3,7 +3,7 @@ entries:
   azure-pipelines-agent:
   - apiVersion: v2
     appVersion: 2.2.20
-    created: "2022-06-06T15:52:50.341628113Z"
+    created: "2022-06-06T16:04:40.466657353Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: b8753ba00c3d04a477b25ab3cf8f4058d76d2df8376be3cb3203c795bd11ca92
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -25,7 +25,7 @@ entries:
     version: 2.2.20
   - apiVersion: v2
     appVersion: 2.2.16
-    created: "2022-06-06T15:52:50.341016209Z"
+    created: "2022-06-06T16:04:40.466064822Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: 31b4c027af5895144b85f30aa7b80c15e7653309eb28d2d0168e6440f8b78976
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -47,7 +47,7 @@ entries:
     version: 2.2.16
   - apiVersion: v2
     appVersion: 2.2.13
-    created: "2022-06-06T15:52:50.340421805Z"
+    created: "2022-06-06T16:04:40.465162874Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: 0148e80e859b9d13ba88401ddbd52d50edd990f2ffd29e7b2c5001627eb7eb55
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -69,7 +69,7 @@ entries:
     version: 2.2.13
   - apiVersion: v2
     appVersion: 2.2.12
-    created: "2022-06-06T15:52:50.339812402Z"
+    created: "2022-06-06T16:04:40.462697644Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: a93606c064339ce3114ad8da02d06fbaffa4a5235ab48548ebff9ad3f14715e8
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -91,11 +91,23 @@ entries:
     version: 2.2.12
   hello-kubernetes-chart:
   - apiVersion: v2
-    appVersion: 1.0.0.72a0e6f2
-    created: "2022-06-06T15:52:50.342176916Z"
+    appVersion: 1.0.0.d64c2388
+    created: "2022-06-06T16:04:40.467322788Z"
     description: A Helm chart for Kubernetes
-    digest: 8b9d6c3df74b62be5356facd180713ec511e64a289f6d298c1ff5b0a68b76661
+    digest: da7f74ef3f0f1298fc8abdd7259e6aea9b4cb13985da6b2d07f2caf75f6f60d3
+    home: https://github.com/jhidalgo3/
+    icon: https://jhidalgo3.github.io/helm-charts/logos/nodejs-logo.png
+    keywords:
+    - nodejs
+    - kubernetes
+    - deploy
+    - hello
+    maintainers:
+    - email: jhidalgo3@gmail.com
+      name: Jose Maria Hidalgo
     name: hello-kubernetes-chart
+    sources:
+    - https://github.com/jhidalgo3/hello-kubernetes
     type: application
     urls:
     - charts/hello-kubernetes-chart-3.0.0.tgz
@@ -103,7 +115,7 @@ entries:
   spring-boot-chart:
   - apiVersion: v2
     appVersion: 1.0.0-SNAPSHOT.431db05d
-    created: "2022-06-06T15:52:50.345070134Z"
+    created: "2022-06-06T16:04:40.468634458Z"
     description: A Springboot Helm chart for Kubernetes
     digest: 28201449b39cd0649bfb08427433ddcfd1130cc5561d8083525c78f61f733c9d
     home: https://github.com/jhidalgo3/
@@ -126,7 +138,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: 1.0.0-SNAPSHOT.fca01fab
-    created: "2022-06-06T15:52:50.343059221Z"
+    created: "2022-06-06T16:04:40.467995424Z"
     description: A Springboot Helm chart for Kubernetes
     digest: bc5c1510bc78a3d448b68bbba7eae1571ce3654395b8c250dc40586b0d2a0990
     home: https://github.com/jhidalgo3/
@@ -147,4 +159,4 @@ entries:
     urls:
     - charts/spring-boot-chart-3.0.0.tgz
     version: 3.0.0
-generated: "2022-06-06T15:52:50.339000197Z"
+generated: "2022-06-06T16:04:40.461887102Z"
