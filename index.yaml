@@ -3,7 +3,7 @@ entries:
   azure-pipelines-agent:
   - apiVersion: v2
     appVersion: 2.2.20
-    created: "2022-07-12T10:15:06.917304105Z"
+    created: "2022-11-17T12:05:45.183777118Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: b8753ba00c3d04a477b25ab3cf8f4058d76d2df8376be3cb3203c795bd11ca92
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -25,7 +25,7 @@ entries:
     version: 2.2.20
   - apiVersion: v2
     appVersion: 2.2.16
-    created: "2022-07-12T10:15:06.916634481Z"
+    created: "2022-11-17T12:05:45.183230721Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: 31b4c027af5895144b85f30aa7b80c15e7653309eb28d2d0168e6440f8b78976
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -47,7 +47,7 @@ entries:
     version: 2.2.16
   - apiVersion: v2
     appVersion: 2.2.13
-    created: "2022-07-12T10:15:06.915953855Z"
+    created: "2022-11-17T12:05:45.182379825Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: 0148e80e859b9d13ba88401ddbd52d50edd990f2ffd29e7b2c5001627eb7eb55
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -69,7 +69,7 @@ entries:
     version: 2.2.13
   - apiVersion: v2
     appVersion: 2.2.12
-    created: "2022-07-12T10:15:06.915316432Z"
+    created: "2022-11-17T12:05:45.181564629Z"
     description: A Helm chart for Azure Pipelines Agent
     digest: a93606c064339ce3114ad8da02d06fbaffa4a5235ab48548ebff9ad3f14715e8
     home: https://github.com/emberstack/docker-azure-pipelines-agent
@@ -92,7 +92,7 @@ entries:
   hello-kubernetes-chart:
   - apiVersion: v2
     appVersion: 1.0.0.f635db8a
-    created: "2022-07-12T10:15:06.917884127Z"
+    created: "2022-11-17T12:05:45.184339015Z"
     description: A hello node application for Kubernetes
     digest: 149d27743d3a61ce94133b1671277cb7e3f6cbfc2a0813073433cb9d4536e2b4
     home: https://github.com/jhidalgo3/
@@ -112,10 +112,35 @@ entries:
     urls:
     - charts/hello-kubernetes-chart-3.0.0.tgz
     version: 3.0.0
+  kafka-offset-lag-for-prometheus:
+  - apiVersion: v1
+    appVersion: 2.3.ca6fdf97
+    created: "2022-11-17T12:05:45.184813213Z"
+    description: Expose Kafka consumer offset lag to prometheus
+    digest: 75c9225c6ac04773955e30d62fdfa21364b77f9df8ef62a1d33eff21eac82ac6
+    home: https://github.com/jhidalgo3/
+    icon: https://jhidalgo3.github.io/helm-charts/logos/go-logo.png
+    keywords:
+    - golang
+    - kubernetes
+    - exporter
+    - keda
+    - prometheus
+    - kafka
+    - eventhub
+    maintainers:
+    - email: jhidalgo3@gmail.com
+      name: Jose Maria Hidalgo
+    name: kafka-offset-lag-for-prometheus
+    sources:
+    - https://github.com/jhidalgo3/kafka-offset-lag-for-prometheus
+    urls:
+    - charts/kafka-offset-lag-for-prometheus-2.3.0.tgz
+    version: 2.3.0
   spring-boot-chart:
   - apiVersion: v2
     appVersion: 1.0.0-SNAPSHOT.431db05d
-    created: "2022-07-12T10:15:06.919150873Z"
+    created: "2022-11-17T12:05:45.185972707Z"
     description: A Springboot Helm chart for Kubernetes
     digest: 28201449b39cd0649bfb08427433ddcfd1130cc5561d8083525c78f61f733c9d
     home: https://github.com/jhidalgo3/
@@ -138,7 +163,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: 1.0.0-SNAPSHOT.fca01fab
-    created: "2022-07-12T10:15:06.918535951Z"
+    created: "2022-11-17T12:05:45.18537871Z"
     description: A Springboot Helm chart for Kubernetes
     digest: bc5c1510bc78a3d448b68bbba7eae1571ce3654395b8c250dc40586b0d2a0990
     home: https://github.com/jhidalgo3/
@@ -159,4 +184,4 @@ entries:
     urls:
     - charts/spring-boot-chart-3.0.0.tgz
     version: 3.0.0
-generated: "2022-07-12T10:15:06.914459901Z"
+generated: "2022-11-17T12:05:45.180214536Z"
